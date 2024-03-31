@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/53c038b32e.js" crossorigin="anonymous"></script>
+    <style>
+        div {
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+        @keyframes example {
+            from {
+                background-color: white;
+            }
+
+            to {
+                background-color: black;
+            }
+        }
+    </style>
 </head>
 
 
@@ -25,7 +41,9 @@
             </div>
         </div>
         <div style="display:flex; gap:26px; cursor: pointer;">
-            <div onclick="window.location.reload()">Home</div>
+            <a href="index.html">
+                <div style="color:white;">Home</div>
+            </a>
             <a href="about.html">
                 <div style="color:white;">About</div>
             </a>
@@ -59,6 +77,9 @@
         <div>
             <img src="graduation.png" height="300px" />
         </div>
+    </div>
+    <div style="display:flex; justify-content:center;"><b>Made with ❤️ by Mandira</b>
+
     </div>
 
 </body>

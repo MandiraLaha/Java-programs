@@ -6,38 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/53c038b32e.js" crossorigin="anonymous"></script>
+    <style>
+        div {
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+        @keyframes example {
+            from {
+                background-color: white;
+            }
+
+            to {
+                background-color: black;
+            }
+        }
+    </style>
 </head>
 
 
-<body
-    style=" color:white; background-color: rgb(10, 11, 11); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-    <div style="display:flex; justify-content:space-between;margin:52px;">
-        <div style="font-size:30px; text-align: justify;"><b><span style="color:red;">M</span>andira</b></div>
-        <div style="display:flex; gap:26px; cursor: pointer;">
-            <a href="index.html">
-                <div style="color:white;">Home</div>
-            </a>
-            <a href="about.html">
-                <div style="color:white;">About</div>
-            </a>
+<body style=" color:white; background-color: rgb(10, 11, 11); font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+'Trebuchet MS', sans-serif; margin:50px;">
+
+    <div style="display:flex; gap:26px; cursor: pointer;">
+        <a href="index.html">
+            <div style="color:white;">Home</div>
+        </a>
+        <a href="about.html">
+            <div style="color:white;">About</div>
+        </a>
+        <a href="contact.html">
             <div style="color:white;">Contact</div>
-        </div>
+        </a>
     </div>
-    <div>
+    <div style="display:flex; justify-content:space-between;">
         <div>
-            My Contact
+            <img src="call1.png" height="716px" />
         </div>
-        <div>
-            My Address
+        <div style="font-size: 49px;margin-right: 345px;margin-top: 96px;"><b><span style="color:red;">C</span>ontact
+                Me</b>
+            <div style="font-size: 26px;">
+                <p>I am available on almost every social media.Below are my contact details </p>
+            </div>
+
+            <div style="display:flex; gap:30px;">
+                <i class=" fa fa-envelope-o" aria-hidden="true"></i>
+                <div style="font-size: 20px;">
+                    <p>mandiralaha2@gmail.com</p>
+                </div>
+            </div>
+            <div style="display:flex; gap:30px;">
+                <i class="fa fa-phone" aria-hidden="true" style="margin-top: 20px;"></i>
+
+                <div style="font-size: 20px;">
+                    <p>8617024677</p>
+                </div>
+            </div>
+            <div style="position: absolute; bottom:0; margin:48px; display:flex; gap:20px;">
+                <a href="https://github.com/MandiraLaha" target="_blank">
+                    <i class="fa-brands fa-github" style="font-size:48px; color:white;"></i></a>
+                <a href="https://www.linkedin.com/in/mandira-laha-42929721b/" target="_blank">
+                    <i class="fa-brands fa-linkedin" style=" font-size:48px;color:white"></i></a>
+            </div>
         </div>
     </div>
-    </div>
-    <div style="position: absolute; bottom:0; margin:48px; display:flex; gap:20px;">
-        <a href="https://github.com/MandiraLaha" target="_blank">
-            <i class="fa-brands fa-github" style="font-size:48px; color:white;"></i></a>
-        <a href="https://www.linkedin.com/in/mandira-laha-42929721b/" target="_blank">
-            <i class="fa-brands fa-linkedin" style=" font-size:48px;color:white"></i></a>
-        <a href="https://www.linkedin.com/in/mandira-laha-42929721b/" target="_blank"></a>
+    <div style="display:flex; justify-content:center;"><b>Made with ❤️ by Mandira</b>
 
     </div>
 </body>
